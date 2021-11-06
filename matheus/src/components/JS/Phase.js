@@ -1,4 +1,5 @@
-import styles from './CSS/Phase.module.css'
+//import styles from './CSS/Phase.module.css'
+import styles from '../CSS/Phase.module.css'
 
 
 function Phase(){

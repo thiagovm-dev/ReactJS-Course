@@ -1,8 +1,9 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName'
-import Person from './components/Person';
-import Phase from './components/Phase';
+import HelloWorld from './components/JS/HelloWorld';
+import SayMyName from './components/JS/SayMyName'
+import Person from './components/JS/Person';
+import Phase from './components/JS/Phase';
+import List from './components/JS/List'
 
 function App() {
   const name = 'Maria Silva'
@@ -23,7 +24,7 @@ function App() {
     occupation="Lawer and JS Programmer"
     photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTICTsBX7WBXUR0yxvpoveKgydzBQfFjcW0nQ&usqp=CAU"
     />
-
+  <List />
     </div>
   );
 }
