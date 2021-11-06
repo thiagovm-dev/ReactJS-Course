@@ -5,7 +5,7 @@ function HelloWorld(){
     return (
         <div>
            
-            <h1>My First Component</h1>
+            <h1>HelloWorld</h1>
             <Phase />
         </div>
     )

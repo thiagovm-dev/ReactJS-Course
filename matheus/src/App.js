@@ -2,6 +2,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName'
 import Person from './components/Person';
+import Phase from './components/Phase';
 
 function App() {
   const name = 'Maria Silva'
@@ -9,7 +10,8 @@ function App() {
 
   return (
     <div className="App">
-   <HelloWorld />
+   <Phase />
+   <Phase />
    <hr/>
    <SayMyName name="Thiago Viana" />
    <SayMyName name="Eike Menezes" />
