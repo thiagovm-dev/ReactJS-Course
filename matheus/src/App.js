@@ -1,5 +1,5 @@
 import './App.css';
-import HelloWorld from './components/JS/HelloWorld';
+//import HelloWorld from './components/JS/HelloWorld';
 import SayMyName from './components/JS/SayMyName'
 import Person from './components/JS/Person';
 import Phase from './components/JS/Phase';
