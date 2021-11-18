@@ -9,11 +9,11 @@ function App() {
       <h1>Testing Events</h1>
       <Events number="01" />
       <Events number="02" />
-      <h1>My Register</h1>
+      
       <Form />
     </div>
   );
-}
+} 
 
 export default App;
  
