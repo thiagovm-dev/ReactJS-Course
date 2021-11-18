@@ -1,16 +1,22 @@
+import Button from "./events/Button"
+
  
- function Events({number}){
+ function Events(){
     function MyEvent(){
-        alert(`I was clicked! ${number}`)
-        console.log(`I was clicked here too in console TVM! ${number}`)
+        alert(`I was clicked!`)
+        console.log(`Activating first event!`)
     }
 
-
+    function secondEvent(){
+        console.log("Activating second event!")
+    }
 
      return(
-         <div>
-        <p>Clique to shoot an Event:</p>
-        <button onClick={MyEvent}>Click here tvm!</button>
+        <div>
+            <p>Click to shoot an Event:</p>
+            <Button event={MyEvent} text="First Event" />
+            <Button event={secondEvent} text="Second Event" />
+          
         </div>
      )
  }

@@ -7,10 +7,8 @@ function App() {
   return (
     <div className="App">
       <h1>Testing Events</h1>
-      <Events number="01" />
-      <Events number="02" />
-      
-      <Form />
+      <Events />
+     <Form />
     </div>
   );
 } 
