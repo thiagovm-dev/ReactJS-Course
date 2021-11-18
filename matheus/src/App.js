@@ -1,15 +1,21 @@
 import './App.css';
-import Conditional from './components/JS/Conditional'
+import AnotherList from './components/JS/AnotherList'
+
 
 
 function App() {
+
+  const myitems = ['React', 'Vue', 'Angular']
   
   return (
     <div className="App">
-      <h1>Conditional Render</h1>
-      <Conditional />
+      <h1>Lists Rendenization</h1>
+        <AnotherList items={myitems} />
+        <AnotherList items={[]} />
+      
+     
     </div>
-  );
+  )
 } 
 
 export default App;
