@@ -1,17 +1,20 @@
+import { useState } from 'react';
 import './App.css';
-import AnotherList from './components/JS/AnotherList'
+import YourName from './components/JS/YourName';
+import Grettings from './components/JS/Grettings'
+
 
 
 
 function App() {
-
-  const myitems = ['React', 'Vue', 'Angular']
+  const [name, setName] = useState()
+  
   
   return (
     <div className="App">
-      <h1>Lists Rendenization</h1>
-        <AnotherList items={myitems} />
-        <AnotherList items={[]} />
+      <h1>State Lift</h1>
+      <YourName setName={setName} />   
+      <Grettings name={name} />   
       
      
     </div>
